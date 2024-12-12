@@ -282,9 +282,9 @@ if uploaded_file is not None:
     if st.button("Generate and Download CSV Report 🗂️"):
         csv_report = generate_csv_report(df)
         st.download_button(
-        label="Download Dataset Summary as CSV 📑",
+        label="Download Dataset Summary as CSV ",
         data=csv_report,
-        file_name="data_analysis_summary.csv 📑",
+        file_name="data_analysis_summary.csv ",
         mime="text/csv"
     )
     
