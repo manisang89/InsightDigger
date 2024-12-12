@@ -10,5 +10,4 @@ plotly==5.24.1
 fpdf==1.7.2
 scikit-learn==1.6.0
 scipy==1.13.1
-visions==0.7.6
-ydata-profiling==4.12.1
+
